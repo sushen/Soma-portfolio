@@ -20,7 +20,7 @@ body {
 }
 
 .app-bar {
-  position: fixed;
+  
   width: 375px;
   height: 92px;
   color: white;
@@ -44,11 +44,57 @@ ul {
   align-items: center;
   padding-left: 10px;
   padding-bottom: 10px;
-  border: solid 1px red;
-
 }
 
 a {
   text-decoration: none;
   color: white;
 }
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 375px;
+  min-height: 650px;
+  background-image: url("image/Topcircles.png");
+  background-repeat: no-repeat;
+  background-size: 375px 563px;
+  margin-bottom: 20px;
+  border: solid 1px green;
+  }
+
+.header-inner-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 375px;
+  min-height: 650px;
+  border: solid 1px yellow;
+}
+
+.myname {
+  margin: auto;
+  width: 327px;
+  height: auto;
+  font-size: 48px;
+  font-weight: 700;
+  color: #7d73fc;
+  text-align: center;
+  padding-top: 50px;
+  border: solid 1px black;
+}
+
+.jobtitle {
+  margin: auto;
+  width: 327px;
+  height: 87px;
+  font-size: 32px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  border: solid 1px black;
+}
+  
