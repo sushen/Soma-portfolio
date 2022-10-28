@@ -18,3 +18,37 @@ body {
   display: grid;
   grid-template-columns: auto;
 }
+
+.app-bar {
+  position: fixed;
+  width: 375px;
+  height: 92px;
+  color: white;
+}
+
+.lower-bar {
+  display: flex;
+  background-color: #191765;
+  justify-content: space-between;
+  align-items: center;
+  width: 375px;
+  height: 48px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 375px;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: solid 1px red;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
