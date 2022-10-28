@@ -1,7 +1,7 @@
 body {
   background-color: #e5e5e5;
   background-image: url("image/Topcircles.png");
-  font-family: "Roboto", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, "Roboto";
   margin: auto;
 }
 
@@ -57,7 +57,7 @@ a {
   align-items: center;
   width: 375px;
   min-height: 650px;
-  background-image: url("image/Topcircles.png");
+  background-image: url('image/Topcircles.png');
   background-repeat: no-repeat;
   background-size: 375px 563px;
   margin-bottom: 20px;
@@ -98,8 +98,8 @@ a {
   width: 327px;
   height: 170px;
   font-size: 20px;
-  font-weight: 400px;
-  color: c8c8d4;
+  font-weight: 400;
+  color: #c8c8d4;
   text-align: center;
 }
 
@@ -164,6 +164,7 @@ hr {
   border: 1px solid #646369;
   margin: auto;
 }
+
 .ul-work {
   display: flex;
   justify-content: space-around;
