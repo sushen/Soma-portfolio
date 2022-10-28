@@ -6,9 +6,11 @@ body {
 }
 
 .outer-maincont {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   background-color: #191765;
-  width: 375px;
+  max-width: 375px;
   min-height: 100vh;
   padding-bottom: 10px;
   color: white;
@@ -20,7 +22,7 @@ body {
 }
 
 .app-bar {
-  width: 375px;
+  max-width: 375px;
   height: 92px;
   color: white;
 }
@@ -30,14 +32,14 @@ body {
   background-color: #191765;
   justify-content: space-between;
   align-items: center;
-  width: 375px;
+  max-width: 375px;
   height: 48px;
 }
 
 ul {
   display: flex;
   list-style: none;
-  width: 375px;
+  max-width: 375px;
   height: 30px;
   justify-content: space-between;
   align-items: center;
@@ -55,7 +57,7 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  width: 375px;
+  max-width: 375px;
   min-height: 650px;
   background-image: url('image/Topcircles.png');
   background-repeat: no-repeat;
@@ -68,13 +70,13 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  width: 375px;
+  max-width: 375px;
   min-height: 650px;
 }
 
 .myname {
   margin: auto;
-  width: 327px;
+  max-width: 327px;
   height: auto;
   font-size: 48px;
   font-weight: 700;
@@ -85,7 +87,7 @@ a {
 
 .jobtitle {
   margin: auto;
-  width: 327px;
+  max-width: 327px;
   height: 87px;
   font-size: 32px;
   font-weight: 500;
@@ -95,7 +97,7 @@ a {
 
 .abilities {
   margin: auto;
-  width: 327px;
+  max-width: 327px;
   height: 170px;
   font-size: 20px;
   font-weight: 400;
@@ -106,7 +108,7 @@ a {
 .proficiency {
   display: flex;
   flex-wrap: wrap;
-  width: 304px;
+  max-width: 304px;
   min-height: 462px;
   margin: auto;
 }
@@ -150,7 +152,7 @@ a {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  width: 200px;
+  max-width: 200px;
   min-height: 100px;
   margin-bottom: 40px;
 }
@@ -160,7 +162,7 @@ a {
 }
 
 hr {
-  width: 327px;
+  max-width: 327px;
   border: 1px solid #646369;
   margin: auto;
 }
@@ -169,7 +171,7 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 65px;
+  max-width: 65px;
   height: 21.4px;
   color: #a2a3ae;
 }
