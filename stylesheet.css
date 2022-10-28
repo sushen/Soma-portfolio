@@ -98,3 +98,12 @@ a {
   border: solid 1px black;
 }
   
+.abilities {
+    margin: auto;
+    width: 327px;
+    height: 170px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: c8c8d4;
+    text-align: center;
+  }
