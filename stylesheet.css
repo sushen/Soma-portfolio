@@ -174,3 +174,13 @@ hr {
   height: 21.4px;
   color: #a2a3ae;
 }
+
+.work-list-article {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  min-height: 2600px;
+  background-image: url("image/portfolio-background-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 375px 2617.21px;
+}
