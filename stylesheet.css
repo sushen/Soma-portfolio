@@ -184,3 +184,17 @@ hr {
   background-repeat: no-repeat;
   background-size: 375px 2617.21px;
 }
+
+.my-work {
+  width: 327px;
+  margin: auto;
+  font-size: 40px;
+  color: #9490ff;
+  padding-bottom: 20px;
+}
+
+.img-workDivider {
+  display: block;
+  width: 327px;
+  margin: auto;
+}
