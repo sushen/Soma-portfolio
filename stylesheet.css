@@ -206,3 +206,24 @@ hr {
   align-items: center;
   margin-top: 10px;
 }
+
+.project-text-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hh2 {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.holdtext {
+  width: 320px;
+  color: #dcdce8;
+  font-size: 25px;
+}
