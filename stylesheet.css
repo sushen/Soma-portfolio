@@ -198,3 +198,11 @@ hr {
   width: 327px;
   margin: auto;
 }
+
+.display-project1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
