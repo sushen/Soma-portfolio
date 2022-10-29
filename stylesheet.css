@@ -222,8 +222,29 @@ hr {
   font-weight: 500;
 }
 
+.flex-item {
+  color: white;
+  align-items: center;
+}
+
 .holdtext {
   width: 320px;
   color: #dcdce8;
   font-size: 25px;
+}
+
+.navlang-flex {
+  display: flex;
+  width: 350px;
+}
+
+.subflex-item {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.artag {
+  display: inline-block;
+  width: 80px;
 }
