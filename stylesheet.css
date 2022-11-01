@@ -6,11 +6,9 @@ body {
 }
 
 .outer-maincont {
-  display: flex;
-  flex-direction: column;
   margin: auto;
   background-color: #191765;
-  max-width: 375px;
+  width: 375px;
   min-height: 100vh;
   padding-bottom: 10px;
   color: white;
@@ -22,16 +20,17 @@ body {
 }
 
 .app-bar {
-  max-width: 375px;
+  width: 375px;
   height: 92px;
   color: white;
 }
 
 .lower-bar {
+  display: flex;
   background-color: #191765;
   justify-content: space-between;
   align-items: center;
-  max-width: 365px;
+  width: 375px;
   height: 48px;
 }
 
@@ -51,14 +50,35 @@ a {
   color: white;
 }
 
+.big-menu {
+  display: none;
+}
+
+.logoo {
+  width: 85px;
+  height: 30px;
+}
+
+.menu-icons {
+  width: 40px;
+  height: 35px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  padding-right: 10px;
+}
+
+.menuimg {
+  margin-right: 5px;
+}
+
 .header-section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 375px;
+  width: 375px;
   min-height: 650px;
-  background-image: url('image/Topcircles.png');
+  background-image: url("image/Topcircles.png");
   background-repeat: no-repeat;
   background-size: 375px 563px;
   margin-bottom: 20px;
@@ -69,13 +89,13 @@ a {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 375px;
+  width: 375px;
   min-height: 650px;
 }
 
 .myname {
   margin: auto;
-  max-width: 327px;
+  width: 327px;
   height: auto;
   font-size: 48px;
   font-weight: 700;
@@ -86,7 +106,7 @@ a {
 
 .jobtitle {
   margin: auto;
-  max-width: 327px;
+  width: 327px;
   height: 87px;
   font-size: 32px;
   font-weight: 500;
@@ -96,7 +116,7 @@ a {
 
 .abilities {
   margin: auto;
-  max-width: 327px;
+  width: 327px;
   height: 170px;
   font-size: 20px;
   font-weight: 400;
@@ -107,7 +127,7 @@ a {
 .proficiency {
   display: flex;
   flex-wrap: wrap;
-  max-width: 304px;
+  width: 304px;
   min-height: 462px;
   margin: auto;
 }
@@ -161,7 +181,7 @@ a {
 }
 
 hr {
-  max-width: 327px;
+  width: 327px;
   border: 1px solid #646369;
   margin: auto;
 }
@@ -170,7 +190,134 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 65px;
+  width: 65px;
   height: 21.4px;
   color: #a2a3ae;
+}
+
+.wk-left {
+  display: none;
+}
+
+.work-list-article {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  min-height: 2600px;
+  background-image: url("image/portfolio-background-shapes-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 375px 2617.21px;
+}
+
+.display-project1,
+.display-project2,
+.display-project3,
+.display-project4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.img-workDivider {
+  display: block;
+  width: 327px;
+  margin: auto;
+}
+
+.project-text-nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hh2 {
+  display: inline-block;
+  width: 327px;
+  text-align: left;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.my-work {
+  width: 327px;
+  margin: auto;
+  font-size: 40px;
+  color: #9490ff;
+  padding-bottom: 20px;
+}
+
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding-left: 23px;
+}
+
+.flex-item {
+  color: white;
+  align-items: center;
+}
+
+.holdtext {
+  width: 320px;
+  color: #dcdce8;
+  font-size: 25px;
+}
+
+.navlang-flex {
+  display: flex;
+  width: 350px;
+}
+
+.subflex-item {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.artag {
+  display: inline-block;
+  width: 80px;
+}
+
+.seeproject {
+  display: inline-block;
+  color: #edecff;
+  font-size: 12px;
+  font-weight: 500;
+  width: 65px;
+  height: 24px;
+  background-color: #7d73fc;
+  margin-top: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px;
+}
+
+.seep {
+  display: flex;
+  justify-content: left;
+  height: 10px;
+  width: 327px;
+  padding-bottom: 10px;
+}
+
+.seeproject:active {
+  background-color: #5e42d7;
+}
+
+.seeproject:disabled {
+  background-color: #2a2b33;
+}
+
+.seeproject:hover {
+  background-color: #7d73fc;
+  box-shadow: 1px 8px 16px;
+}
+
+.seeproject:enabled {
+  background-color: #7d73fc;
 }
