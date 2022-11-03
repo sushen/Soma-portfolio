@@ -34,7 +34,8 @@ body {
   height: 48px;
 }
 
-ul {
+.ul-headeer,
+.ul-social {
   display: flex;
   list-style: none;
   width: 365px;
@@ -43,6 +44,11 @@ ul {
   align-items: center;
   padding-left: 10px;
   padding-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  height: auto;
 }
 
 a {
@@ -268,7 +274,7 @@ hr {
 }
 
 .navlang-flex {
-  display: flex;
+  /* display: flex; */
   width: 350px;
 }
 
@@ -297,12 +303,14 @@ hr {
   padding: 12px;
 }
 
-.seep {
+.seep,
+.li-seep {
   display: flex;
   justify-content: left;
-  height: 10px;
+  height: 30px;
   width: 327px;
   padding-bottom: 10px;
+  padding-left: 0.0000001px;
 }
 
 .seeproject:active {
