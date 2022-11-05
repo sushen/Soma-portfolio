@@ -447,4 +447,9 @@ hr {
     display: grid;
     grid-template-columns: auto;
   }
+
+  .big-menu {
+    display: flex;
+    width: 40%;
+  }
 }
