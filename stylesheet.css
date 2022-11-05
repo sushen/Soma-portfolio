@@ -598,4 +598,16 @@ hr {
     color: #fff;
   }
 
+  .vector4 {
+    display: block;
+    width: 43%;
+    margin: auto;
+  }
+
+  hr {
+    width: 43%;
+    border: 1px solid #646369;
+    margin: auto;
+  }
+
 }
