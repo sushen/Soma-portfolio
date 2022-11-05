@@ -395,39 +395,34 @@ hr {
   border-style: none;
 }
 
+.mmb:active {
+  background-color: #5e42df;
+}
+
+.myform .mmb:disabled {
+  background-color: #2a2b33;
+}
+
+.myform button.mmb:hover {
+  background-color: #7d73fc;
+  box-shadow: 1px 8px 16px;
+}
+
+.myform .mmb:enabled {
+  background-color: #7d73fc;
+}
+
 .foota a {
   color: #ebebff;
   font-size: 20px;
 }
 
-.footer-nav {
-  width: 327px;
-  margin: auto;
-  border: 1px solid red;
-}
-
-.footer-social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 200px;
-  margin: 0vh;
-}
-
-
 .foota .social ul {
   padding-bottom: 1px;
 }
 
-.social {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 200px;
-  min-height: 100px;
-  margin-bottom: 40px;
+.contact-image {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
