@@ -554,4 +554,48 @@ hr {
     text-align: center;
     margin-top: 10px;
   }
+
+  .proficiency {
+    display: flex;
+    flex-wrap: wrap;
+    width: 43%;
+    min-height: 200px;
+    margin: auto;
+  }
+
+  .frmwk {
+    color: #f5f5ff;
+    font-size: 15px;
+  }
+
+  .pf-items {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 32.57%;
+    height: 280px;
+  }
+
+  .frwk-heada {
+    color: #9390ff;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .ppf-head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: auto;
+    width: 100px;
+  }
+
+  .ppf-head li {
+    margin-bottom: 15px;
+    font-size: 14.1935px;
+    color: #fff;
+  }
+
 }
