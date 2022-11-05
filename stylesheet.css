@@ -433,4 +433,18 @@ hr {
     font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,;
     margin: auto;
   }
+
+  .outer-maincont {
+    margin: auto;
+    background-color: #191765;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .main-cont {
+    display: grid;
+    grid-template-columns: auto;
+  }
 }
