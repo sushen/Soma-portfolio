@@ -671,5 +671,127 @@ hr {
     margin-bottom: 40px;
   }
 
+  .display-project1,
+  .display-project2,
+  .display-project3,
+  .display-project4 {
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+
+  .display-project1 {
+    flex-direction: row;
+  }
+
+  .display-project2 {
+    flex-direction: row-reverse;
+  }
+
+  .display-project3 {
+    flex-direction: row;
+  }
+
+  .display-project4 {
+    flex-direction: row-reverse;
+  }
+
+  .project-flex {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 23px;
+  }
+
+  .flex-item {
+    color: white;
+    align-items: center;
+    width: 100%;
+  }
+
+  .holdtext {
+    width: 100%;
+    color: #dfe1e6;
+    font-size: 20px;
+  }
+
+  .navlang-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .subflex-item {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .project-text-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 40%;
+    height: 550px;
+    margin-top: 20px;
+  }
+
+  .hh2 {
+    display: inline-block;
+    width: 100%;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .placeholder-div {
+    width: 59%;
+    height: 550px;
+    padding-bottom: 10px;
+  }
+
+  .ph-image {
+    width: 95%;
+    height: 550px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+  }
+
+  .navlang-flex li {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .seeproject {
+    display: inline-block;
+    color: #edecff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 12px 12px 12px;
+    width: 82px;
+    height: 24px;
+    background-color: #7d73fc;
+    margin-top: 60px;
+    line-height: 24px;
+    text-align: center;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+  }
+
+  .seep {
+    display: flex;
+    justify-content: left;
+    height: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+
 
 }
