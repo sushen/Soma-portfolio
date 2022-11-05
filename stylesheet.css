@@ -383,6 +383,10 @@ hr {
   margin-bottom: 15px;
 }
 
+.myform .dsk {
+  display: none;
+}
+
 .myform .mmb {
   display: block;
   width: 100px;
