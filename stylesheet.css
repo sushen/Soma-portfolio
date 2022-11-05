@@ -394,3 +394,40 @@ hr {
   background-color: #7d73fc;
   border-style: none;
 }
+
+.foota a {
+  color: #ebebff;
+  font-size: 20px;
+}
+
+.footer-nav {
+  width: 327px;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+  margin: 0vh;
+}
+
+
+.foota .social ul {
+  padding-bottom: 1px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200px;
+  min-height: 100px;
+  margin-bottom: 40px;
+}
