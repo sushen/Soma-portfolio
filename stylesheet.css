@@ -303,6 +303,7 @@ hr {
   height: 10px;
   width: 327px;
   padding-bottom: 10px;
+  padding-left: 0.000001px;
 }
 
 .seeproject:active {
@@ -320,4 +321,107 @@ hr {
 
 .seeproject:enabled {
   background-color: #7d73fc;
+}
+
+.contact-section,
+.foota {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+}
+
+.contact {
+  color: #9390ff;
+  font-size: 32px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.text-invite {
+  width: 327px;
+  height: 105px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #f5f5ff;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cc-top {
+  margin-top: 100px;
+}
+
+.myform {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.myform input {
+  width: 295px;
+  height: 18px;
+  color: #81818c;
+  font-size: 15px;
+  padding: 15px 16px 15px;
+  margin-bottom: 15px;
+}
+
+.myform input.inp-email {
+  color: #191765;
+}
+
+.myform textarea {
+  width: 303px;
+  height: 124px;
+  color: #81818c;
+  font-size: 15px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.myform .mmb {
+  display: block;
+  width: 100px;
+  height: 50px;
+  color: #edecff;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #7d73fc;
+  border-style: none;
+}
+
+.mmb:active {
+  background-color: #5e42df;
+}
+
+.myform .mmb:disabled {
+  background-color: #2a2b33;
+}
+
+.myform button.mmb:hover {
+  background-color: #7d73fc;
+  box-shadow: 1px 8px 16px;
+}
+
+.myform .mmb:enabled {
+  background-color: #7d73fc;
+}
+
+.foota a {
+  color: #ebebff;
+  font-size: 20px;
+}
+
+.foota .social ul {
+  padding-bottom: 1px;
+}
+
+.contact-image {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 25px;
 }
