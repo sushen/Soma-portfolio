@@ -323,7 +323,6 @@ hr {
   background-color: #7d73fc;
 }
 
-
 .contact-section,
 .foota {
   display: flex;
@@ -345,7 +344,7 @@ hr {
   height: 105px;
   font-size: 17px;
   font-weight: 400;
-  color: f5f5ff;
+  color: #f5f5ff;
   line-height: 24px;
   text-align: center;
   margin-bottom: 15px;
