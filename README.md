@@ -7,7 +7,8 @@ Portfolio Mobile Version
 
 This project is to set up repository locally and on the github. Set up Linters configuration the project.
 The project is in a number of sections wich inclusde the headers, the name and title, the introduction and my abilities sections. This is my Portfolio which shows what I have done.
-I have added the resent header and headline section, the project section, contact and the footer
+I have added the resent project section 
+I have coverted the mobile version into a desk top version making it responsive(using a responsive design)
 
 
 ## Built With
@@ -30,7 +31,7 @@ github
 6. Create folders to keep related feature ssuch as images
 7. Begin to designe (code) your Portfolio and remeber to push progress to github
 8. Create the mobile version first
-
+9. Convert mobile version into a desktop by applying media querries on the mobile version
 
 
 
@@ -47,7 +48,7 @@ Git
 
 👤 **Somarib Emmanuel**
 
-GitHub: [@somarib](https://github.com/somarib/Soma-portfolio)
+GitHub: [@somarib](https://github.com/somarib/Soma-Portfolio)
 Twitter: @somarib13
 LinkIn: www.linkedin.com/in/emmanuel-somarib-21a49617
 

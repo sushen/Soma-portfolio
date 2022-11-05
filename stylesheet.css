@@ -925,4 +925,8 @@ a {
   .myform button.dsk:enabled {
     background-color: #7d73fc;
   }
+
+  a:hover {
+    cursor: pointer;
+  }
 }
