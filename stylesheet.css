@@ -274,8 +274,16 @@ hr {
 }
 
 .navlang-flex {
-  /* display: flex; */
+  display: flex; 
   width: 350px;
+}
+
+.navlang-flex-float {
+  position: relative;
+}
+
+.navlang-flex-float li {
+  float: left;
 }
 
 .subflex-item {
