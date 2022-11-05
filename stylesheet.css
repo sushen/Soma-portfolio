@@ -361,3 +361,25 @@ hr {
   flex-wrap: wrap;
   align-items: center;
 }
+
+.myform input {
+  width: 295px;
+  height: 18px;
+  color: #81818c;
+  font-size: 15px;
+  padding: 15px 16px 15px;
+  margin-bottom: 15px;
+}
+
+.myform input.inp-email {
+  color: #191765;
+}
+
+.myform textarea {
+  width: 303px;
+  height: 124px;
+  color: #81818c;
+  font-size: 15px;
+  padding: 12px;
+  margin-bottom: 15px;
+}
