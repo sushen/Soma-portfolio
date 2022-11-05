@@ -476,4 +476,8 @@ hr {
     margin: auto;
     font-size: 20px;
   }
+
+  .menu-icons {
+    display: none;
+  }
 }
