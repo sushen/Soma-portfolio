@@ -792,6 +792,145 @@ hr {
     padding-bottom: 10px;
   }
 
+  .contact-section,
+  .foota {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+  }
+
+  .contact-section {
+    margin-top: 80px;
+  }
+
+  .cc-sect {
+    width: 100%;
+  }
+
+  .cc-top {
+    padding-top: 40px;
+  }
+
+  .contact {
+    display: block;
+    width: 60%;
+    color: #9390ff;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+
+  .mble {
+    display: none;
+  }
+
+  .text-invite {
+    width: 60%;
+    height: 105px;
+    font-size: 20px;
+    color: #ebebff;
+    text-align: center;
+    margin: auto;
+  }
+
+  .myform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .myform input {
+    width: 60%;
+    height: 18px;
+    color: #171965;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #f7f3ff;
+    border-radius: 2px;
+    padding: 15px 16px 15px;
+    margin-bottom: 15px;
+  }
+
+  .myform input.inp-email {
+    background-color: white;
+    color: #6d6c70;
+  }
+
+  .myform textarea {
+    width: 60%;
+    height: 104px;
+    padding: 14px 16px 14px;
+    color: #6d6c70;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  .myform .dsk {
+    display: block;
+    width: 160px;
+    height: 48px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px;
+    background-color: #9390ff;
+    border-style: none;
+    transition: width 3s, backgeround-color 4s;
+  }
+
+  .myform .mmb {
+    display: none;
+  }
+
+  .foota .social {
+    padding-bottom: 1px;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+  }
+
+  .contact-image {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 25px;
+  }
+
+  .img-workDivider {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .myform button.dsk:disabled {
+    background-color: #2a2b33;
+  }
+
+  .myform button.dsk:active {
+    background-color: #5e42d7;
+  }
+
+  .myform button.dsk:hover {
+    width: 120px;
+    background-color: #7d73fc;
+    cursor: pointer;
+    box-shadow: 1px 8px 16px;
+  }
+
+  .myform button.dsk:enabled {
+    background-color: #7d73fc;
+  }
+
 
 
 }
