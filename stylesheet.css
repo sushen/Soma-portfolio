@@ -610,4 +610,39 @@ hr {
     margin: auto;
   }
 
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 40px;
+    border: 1px solid white;
+  }
+
+  .ul-work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65px;
+    height: 21.4px;
+    color: #a2a3ae;
+  }
+
+  .wk-left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 65px;
+    height: 21.4px;
+    color: a2a3ae;
+  }
+
+  .heed-menu {
+    width: 100%;
+  }
+
+
 }
