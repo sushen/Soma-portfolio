@@ -25,29 +25,19 @@ body {
   color: white;
 }
 
+.upper-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  height: 44px;
+}
+
 .lower-bar {
   display: flex;
-  background-color: #191765;
   justify-content: space-between;
   align-items: center;
   width: 375px;
   height: 48px;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  width: 365px;
-  height: 30px;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .big-menu {
@@ -119,8 +109,8 @@ a {
   width: 327px;
   height: 170px;
   font-size: 20px;
-  font-weight: 400;
-  color: #c8c8d4;
+  font-weight: 400px;
+  color: c8c8d4;
   text-align: center;
 }
 
@@ -199,6 +189,22 @@ hr {
   display: none;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  width: 200px;
+  height: 20px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .work-list-article {
   display: flex;
   flex-direction: column;
@@ -235,7 +241,7 @@ hr {
 
 .hh2 {
   display: inline-block;
-  width: 327px;
+  width: 100%;
   text-align: left;
   font-size: 32px;
   font-weight: 500;
@@ -297,15 +303,6 @@ hr {
   padding: 12px;
 }
 
-.seep {
-  display: flex;
-  justify-content: left;
-  height: 10px;
-  width: 327px;
-  padding-bottom: 10px;
-  padding-left: 0.000001px;
-}
-
 .seeproject:active {
   background-color: #5e42d7;
 }
@@ -339,12 +336,16 @@ hr {
   text-align: center;
 }
 
+.dstop {
+  display: none;
+}
+
 .text-invite {
   width: 327px;
   height: 105px;
   font-size: 17px;
   font-weight: 400;
-  color: #f5f5ff;
+  color: f5f5ff;
   line-height: 24px;
   text-align: center;
   margin-bottom: 15px;
@@ -391,11 +392,28 @@ hr {
   display: block;
   width: 100px;
   height: 50px;
-  color: #edecff;
-  font-size: 12px;
-  font-weight: 500;
   background-color: #7d73fc;
   border-style: none;
+}
+
+.contact-image {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+.foota .social {
+  padding-bottom: 1px;
+  margin-bottom: 5px;
+}
+
+.foota .social ul {
+  padding-bottom: 1px;
+}
+
+.foota a {
+  color: #ebebff;
+  font-size: 20px;
 }
 
 .mmb:active {
@@ -413,21 +431,6 @@ hr {
 
 .myform .mmb:enabled {
   background-color: #7d73fc;
-}
-
-.foota a {
-  color: #ebebff;
-  font-size: 20px;
-}
-
-.foota .social ul {
-  padding-bottom: 1px;
-}
-
-.contact-image {
-  display: inline-block;
-  margin-top: 60px;
-  margin-bottom: 25px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -452,13 +455,7 @@ hr {
     grid-template-columns: auto;
   }
 
-  .big-menu {
-    display: flex;
-    width: 40%;
-  }
-
   .app-bar {
-    position: relative;
     width: 100%;
     height: 92px;
     color: white;
@@ -481,9 +478,18 @@ hr {
     font-size: 20px;
   }
 
+  .big-menu {
+    display: flex;
+    width: 40%;
+  }
+
   .logoo {
     width: 85px;
     height: 30px;
+  }
+
+  .menu-icons {
+    display: none;
   }
 
   .menuimg {
@@ -511,10 +517,6 @@ hr {
     min-height: 650px;
     margin: auto;
     margin-bottom: 200px;
-  }
-
-  .menu-icons {
-    display: none;
   }
 
   .wl-inner-cont {
@@ -623,7 +625,6 @@ hr {
     width: 100%;
     min-height: 100px;
     margin-bottom: 40px;
-    border: 1px solid white;
   }
 
   .ul-work {
@@ -665,14 +666,6 @@ hr {
     font-size: 40px;
     color: #9490ff;
     padding-bottom: 20px;
-  }
-
-  .img-workDivider {
-    display: block;
-    width: 100%;
-    height: 2px;
-    margin-top: 20px;
-    margin-bottom: 40px;
   }
 
   .display-project1,
@@ -785,7 +778,6 @@ hr {
     margin-top: 60px;
     line-height: 24px;
     text-align: center;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .seep {
@@ -804,7 +796,6 @@ hr {
     align-items: center;
     width: 80%;
     margin: auto;
-    border: 1px solid red;
   }
 
   .contact-section {
@@ -934,7 +925,4 @@ hr {
   .myform button.dsk:enabled {
     background-color: #7d73fc;
   }
-
-
-
 }
